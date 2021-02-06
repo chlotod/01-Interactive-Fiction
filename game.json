@@ -1,0 +1,168 @@
+{
+    "passages": [
+      {
+        "text": "The seat of the king's power. You look up at towering structure and proceed inside. \n\n[[Go to Throne Room->ThroneRoom]]\n\n[[Go to Small Council Chamber->SmallCouncilChamber]]\n\n[[Go to Tower of the Hand->TowerofHand]]\n\n[[Go to Black Cells->BlackCells]]\n\n",
+        "links": [
+          {
+            "name": "Go to Throne Room",
+            "link": "ThroneRoom",
+            "pid": "2"
+          },
+          {
+            "name": "Go to Small Council Chamber",
+            "link": "SmallCouncilChamber",
+            "pid": "3"
+          },
+          {
+            "name": "Go to Tower of the Hand",
+            "link": "TowerofHand",
+            "pid": "4"
+          },
+          {
+            "name": "Go to Black Cells",
+            "link": "BlackCells",
+            "pid": "8"
+          }
+        ],
+        "name": "RedKeep",
+        "pid": "1",
+        "position": {
+          "x": "421",
+          "y": "153"
+        }
+      },
+      {
+        "text": "You stand in a richly decorated hall. At the far end, stands a monstrosity of a chair, made up of bent and broken sword blades. You approach the Iron Throne. \n\n[[Go underneath throne room->UnderThroneRoom]]",
+        "links": [
+          {
+            "name": "Go underneath throne room",
+            "link": "UnderThroneRoom",
+            "pid": "5"
+          }
+        ],
+        "name": "ThroneRoom",
+        "pid": "2",
+        "position": {
+          "x": "196",
+          "y": "303"
+        }
+      },
+      {
+        "text": "You enter and find a long oaken table flanked by many chairs. \n\n[[Go to Maester's Laboratory->Maester'sLaboratory]]\n\n\n",
+        "links": [
+          {
+            "name": "Go to Maester's Laboratory",
+            "link": "Maester'sLaboratory",
+            "pid": "6"
+          }
+        ],
+        "name": "SmallCouncilChamber",
+        "pid": "3",
+        "position": {
+          "x": "346",
+          "y": "303"
+        }
+      },
+      {
+        "text": "You finish climbing the steps and find a compact stone room which houses an austere office and, beside it, a lavish bedroom. \n\n[[Go to Pyromancer's->Pyromancer's]]",
+        "links": [
+          {
+            "name": "Go to Pyromancer's",
+            "link": "Pyromancer's",
+            "pid": "7"
+          }
+        ],
+        "name": "TowerofHand",
+        "pid": "4",
+        "position": {
+          "x": "496",
+          "y": "303"
+        }
+      },
+      {
+        "text": "You make your way into a vast basement which houses the skull of Balerion the Dread, along with the other remaining dragon skulls. \n\n[[Return to Throne Room->ThroneRoom]] ",
+        "links": [
+          {
+            "name": "Return to Throne Room",
+            "link": "ThroneRoom",
+            "pid": "2"
+          }
+        ],
+        "name": "UnderThroneRoom",
+        "pid": "5",
+        "position": {
+          "x": "132",
+          "y": "451"
+        }
+      },
+      {
+        "text": "You enter a room filled to the ceiling with dusty tomes. \n\n[[Return to Small Council Chamber->SmallCouncilChamber]] ",
+        "links": [
+          {
+            "name": "Return to Small Council Chamber",
+            "link": "SmallCouncilChamber",
+            "pid": "3"
+          }
+        ],
+        "name": "Maester'sLaboratory",
+        "pid": "6",
+        "position": {
+          "x": "316",
+          "y": "447"
+        }
+      },
+      {
+        "text": "You find yourself in a cramped and dimly lit room that glows faintly with green light. \n\n[[Return to Tower of the Hand->TowerofHand]] ",
+        "links": [
+          {
+            "name": "Return to Tower of the Hand",
+            "link": "TowerofHand",
+            "pid": "4"
+          }
+        ],
+        "name": "Pyromancer's",
+        "pid": "7",
+        "position": {
+          "x": "505",
+          "y": "453"
+        }
+      },
+      {
+        "text": "The stench of dispair assaults your senses as you descend into a pitch black chasm. \n\n[[Go to Flea Bottom->FleaBottom]]",
+        "links": [
+          {
+            "name": "Go to Flea Bottom",
+            "link": "FleaBottom",
+            "pid": "9"
+          }
+        ],
+        "name": "BlackCells",
+        "pid": "8",
+        "position": {
+          "x": "635",
+          "y": "305"
+        }
+      },
+      {
+        "text": "You exit out from behind the Red Keep and find yourself in the expanse of squat houses. \n\n[[Return to Black Cells->BlackCells]] ",
+        "links": [
+          {
+            "name": "Return to Black Cells",
+            "link": "BlackCells",
+            "pid": "8"
+          }
+        ],
+        "name": "FleaBottom",
+        "pid": "9",
+        "position": {
+          "x": "670",
+          "y": "445"
+        }
+      }
+    ],
+    "name": "King's Landing",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.12",
+    "ifid": "0514DD33-F55F-40F5-AD3E-AC13C3DA8517"
+  }
