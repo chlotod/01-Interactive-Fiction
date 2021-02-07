@@ -41,7 +41,7 @@ def update(current,choice,game_desc):
     return current
 
 
-def render():
+def render(current):
     print("\n\n")
     print(current["name"])
     print(format_passage(current["text"]))
